@@ -1,8 +1,8 @@
 import math
 
-EPS    = 0.1**(20)
-flag   = False
-ans    = []
+EPS  = 0.1**(20)
+flag = False
+ans  = []
 
 def f(x):
     return x**3-4*x**2+x+6

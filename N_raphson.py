@@ -6,15 +6,15 @@ flag = False
 ans  = []
 count=0
 
-def f(x):
-    return x**3-5*x**2-48*x+108
-def df(x):
-    return 3*x**2-10*x-48
-
 # def f(x):
-#     return x**3+x**2
+#     return x**3-5*x**2-48*x+108
 # def df(x):
-#     return 3*x**2+2*x
+#     return 3*x**2-10*x-48
+
+def f(x):
+    return x**3+x**2
+def df(x):
+    return 3*x**2+2*x
 
 # def f(x):
 #     return x**2-2*x-8
